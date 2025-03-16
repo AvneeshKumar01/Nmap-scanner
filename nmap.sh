@@ -18,15 +18,15 @@ read choice
 nmap --version
 if [ $choice = 1 ];then
     ping -c 1 $IP
-elif [ $choice = 1 ];then
+elif [ $choice = 2 ];then
     nmap -sS $IP
-elif [ $choice = 1 ];then
+elif [ $choice = 3 ];then
     nmap -sT $IP
-elif [ $choice = 1 ];then
+elif [ $choice = 4 ];then
     nmap -sU $IP
-elif [ $choice = 1 ];then
+elif [ $choice = 5 ];then
     nmap -A $IP
-elif [ $choice = 1 ];then
+elif [ $choice = 6 ];then
     nmap -F $IP
 fi
 
