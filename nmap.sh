@@ -12,7 +12,7 @@ echo "Please select the type of scan you want to run:
       5) Aggressive scan
       6) Fast scan"
 
-echo "enter your choice (1-5) : "
+echo "enter your choice (1-6) : "
 read choice
 
 nmap --version
